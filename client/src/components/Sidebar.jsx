@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Menu, X, Home, Video, Calendar } from "lucide-react";
+import { Menu, X, Home, Video } from "lucide-react";
 import logo from "../assets/images/praise sawa  (1).svg";
 
 const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
@@ -20,7 +20,6 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
   const navItems = [
     { id: "home", icon: Home, label: "Home" },
     { id: "support", icon: Video, label: "Tutorials" },
-    { id: "events", icon: Calendar, label: "Events" },
   ];
 
   return (

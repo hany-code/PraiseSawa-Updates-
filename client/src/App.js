@@ -11,7 +11,7 @@ import SongDetail from "./components/SongDetail";
 import Songs from "./components/Songs";
 import Sidebar from "./components/Sidebar";
 import PlankPage from "./components/PlankPage";
-import Events from "./components/Events";
+
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -41,7 +41,6 @@ function App() {
               <Route path="songs/:id" element={<SongDetail />} />
               <Route path="PlankPage" element={<PlankPage />} />
               <Route path="support" element={<Support />} />
-              <Route path="events" element={<Events />} />
 
               {/* <Route path="Popular" element={<PlankPage />} /> */}
               {/* <Route path="library" element={<PlankPage />} /> */}
