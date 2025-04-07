@@ -1,0 +1,41 @@
+@keyframes borderAnimation {
+  0% {
+    border-color: #333;
+    border-width: 2px;
+  }
+  50% {
+    border-color: #331;
+    border-width: 4px;
+  }
+  100% {
+    border-color: #332;
+    border-width: 2px;
+  }
+}
+
+.active-item {
+  border: 2px solid #333; /* Yellow border for active item */
+  position: relative;
+  animation: borderAnimation 1s infinite; /* Apply animation for border effect */
+  background-color: #cdcdcd; /* Darker background to contrast with active color */
+}
+
+p.active-item {
+  border: 2px solid #333; /* Yellow border for active item */
+  position: relative;
+  animation: borderAnimation 1s infinite; /* Apply animation for border effect */
+}
+
+p.active-item::after {
+  content: 'Showing Now';
+  position: absolute;
+  right: -90px; /* Adjust based on your layout */
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  white-space: nowrap; /* Prevent text wrapping */
+}

@@ -1,0 +1,6 @@
+/* Hide the ControlBar on mobile devices */
+@media (max-width: 768px) {
+    .control-bar {
+      display: none;
+    }
+  }

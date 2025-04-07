@@ -1,0 +1,40 @@
+/* TranslatedSong.css */
+
+/* Common styles for the component */
+.p-6 {
+  padding: 1.5rem;
+}
+.m-5 {
+  margin: 1.25rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.transition-transform {
+  transition: transform 0.3s ease-in-out;
+}
+.hover\:shadow-2xl:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* Specific component styles */
+.bg-light-gray {
+  background-color: #e8e8e8;
+}
+.text-dark-blue {
+  color: #0b4f6c;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.z-10 {
+  z-index: 10;
+}
